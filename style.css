@@ -1,1 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+:root {
+  --violet: hsl(263, 55%, 52%);
+  --dunkelgraublau: hsl(217, 19%, 35%);
+  --dunkelblau: hsl(219, 29%, 14%);
+  --weiss: hsl(0, 0%, 100%);
+  --hellgrau: hsl(0, 0%, 81%);
+  --graublau: hsl(210, 46%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
